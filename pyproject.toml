@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "research-python-evolutionary-algorithms-lcpp"
 version = "0.1.0"
-description = "This study proposes the application of metaheuristics, such as Simulated Annealing and"
-authors = ["GRASP, to address the Cutting Path Determination Problem (CPDP)."]
-license = "comparing with the BRKGA genetic algorithm."
+description = "This study proposes the application of metaheuristics, such as Simulated Annealing and GRASP (?), to address the Cutting Path Determination Problem (CPDP)."
+authors = ["Luis Domingues <luisgsilva950@gmail.com>", "Guilherme Nepomuceno de Carvalho <guilhermenepomuceno46@gmail.com>"]
+license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]

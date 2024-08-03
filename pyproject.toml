@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "research-python-evolutionary-algorithms-lcpp"
+version = "0.1.0"
+description = "This study proposes the application of metaheuristics, such as Simulated Annealing and"
+authors = ["GRASP, to address the Cutting Path Determination Problem (CPDP)."]
+license = "comparing with the BRKGA genetic algorithm."
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+networkx = "^3.3"
+pydantic = "^2.8.2"
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^2.0.0"
+matplotlib = "^3.9.1"
+deap = "^1.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
